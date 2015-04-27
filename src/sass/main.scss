@@ -1,0 +1,324 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'ConcourseCaps';
+    src: url('../assets/fonts/concourse_c3_regular-webfont.eot');
+    src: url('../assets/fonts/concourse_c3_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/concourse_c3_regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/concourse_c3_regular-webfont.woff') format('woff'),
+         url('../assets/fonts/concourse_c3_regular-webfont.ttf') format('truetype'),
+         url('../assets/fonts/concourse_c3_regular-webfont.svg#concourse_c3regular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ConcourseCaps';
+    src: url('../assets/fonts/concourse_c4_regular-webfont.eot');
+    src: url('../assets/fonts/concourse_c4_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/concourse_c4_regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/concourse_c4_regular-webfont.woff') format('woff'),
+         url('../assets/fonts/concourse_c4_regular-webfont.ttf') format('truetype'),
+         url('../assets/fonts/concourse_c4_regular-webfont.svg#concourse_c4regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ConcourseCaps';
+    src: url('../assets/fonts/concourse_c6_regular-webfont.eot');
+    src: url('../assets/fonts/concourse_c6_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/concourse_c6_regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/concourse_c6_regular-webfont.woff') format('woff'),
+         url('../assets/fonts/concourse_c6_regular-webfont.ttf') format('truetype'),
+         url('../assets/fonts/concourse_c6_regular-webfont.svg#concourse_c6regular') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Concourse';
+    src: url('../assets/fonts/concourse_t3_regular-webfont.eot');
+    src: url('../assets/fonts/concourse_t3_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/concourse_t3_regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/concourse_t3_regular-webfont.woff') format('woff'),
+         url('../assets/fonts/concourse_t3_regular-webfont.ttf') format('truetype'),
+         url('../assets/fonts/concourse_t3_regular-webfont.svg#concourse_t3regular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Concourse';
+    src: url('../assets/fonts/concourse_t4_regular-webfont.eot');
+    src: url('../assets/fonts/concourse_t4_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/concourse_t4_regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/concourse_t4_regular-webfont.woff') format('woff'),
+         url('../assets/fonts/concourse_t4_regular-webfont.ttf') format('truetype'),
+         url('../assets/fonts/concourse_t4_regular-webfont.svg#concourse_t4regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Concourse';
+    src: url('../assets/fonts/concourse_t6_regular-webfont.eot');
+    src: url('../assets/fonts/concourse_t6_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/concourse_t6_regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/concourse_t6_regular-webfont.woff') format('woff'),
+         url('../assets/fonts/concourse_t6_regular-webfont.ttf') format('truetype'),
+         url('../assets/fonts/concourse_t6_regular-webfont.svg#concourse_t6regular') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@import "lib/normalize";
+@import "lib/bourbon/bourbon";
+@import "bitters/grid-settings";
+@import "lib/neat/neat";
+@import "bitters/base";
+
+
+
+
+// -------------------------------------------------------------
+// Base Styles
+// -------------------------------------------------------------
+
+html, body {
+  height: 100%;
+}
+
+::-moz-selection {
+  background: $action-color;
+  color: $white;
+  text-shadow: none;
+}
+
+::selection {
+  background: $action-color;
+  color: $white;
+  text-shadow: none;
+}
+
+body {
+  color: $white;
+  background: $dark-gray;
+}
+ 
+.wrapper {
+  @include outer-container;
+  max-width: 23em;
+  text-align: center;
+  padding: 0 1.5em;
+}
+
+
+
+
+// -------------------------------------------------------------
+// Header
+// -------------------------------------------------------------
+
+.logo {
+  background-image: url(/assets/images/bookball-logo.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: -99999px;
+  max-width: em(301);
+  height: em(44);
+}
+
+
+
+
+
+// -------------------------------------------------------------
+// Page Content
+// -------------------------------------------------------------
+
+.page-content section {
+  padding: 1em 1.25em;
+}
+
+.page-content h1 {
+  font-size: 1.5em;
+}
+
+.content {
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+.hero-wrapper {
+  .wrapper {
+    padding-top: 2.5em;
+  }
+  p {
+    font-size: 1.5em;
+    line-height: 1.25em;
+    font-weight: 300;
+    margin-bottom: 1.5em;
+  }
+}
+
+.body-wrapper {
+  background-color: $green;
+  .wrapper {
+    padding-top: 2em;
+  }
+  .tagline {
+    font-weight: 600;
+    font-size: 1.75em;
+    margin-bottom: 1em;
+  }
+}
+
+.logo {
+  margin-bottom: 2em;
+}
+
+.sports-icons {
+  width: 151px;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+
+
+
+
+// -------------------------------------------------------------
+// Social Links
+// -------------------------------------------------------------
+
+.social {
+  ul li {
+    display: inline-block;
+  }
+  ul li + li {
+    margin-left: 1em;
+  }
+}
+
+.icon {
+  width: 36px;
+  height: 30px;
+  background-size: contain;
+  text-indent: -99999px;
+}
+
+
+
+
+
+
+// -------------------------------------------------------------
+// Images
+// -------------------------------------------------------------
+
+.hero-full {
+  display: none;
+}
+
+img {
+  display: block;
+}
+
+
+
+
+
+
+// -------------------------------------------------------------
+// Email Form
+// -------------------------------------------------------------
+
+
+
+.beta-text {
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+form {
+  margin-bottom: 4em;
+  p {
+    line-height: 1.25em;
+    margin-bottom: 1.75em;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+  padding: 1.5em 1em 1em;
+  border-radius: $base-border-radius;
+  border: 1px solid rgba($black, 0.2);
+}
+
+input {
+  height: 2.5em;
+  width: 100%;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"] {
+  color: $dark-gray;
+}
+
+button {
+  font-family: ConcourseCaps;
+  text-transform: lowercase;
+  background-color: $blue;
+  color: $white;
+  font-weight: 600;
+  &:hover,
+  &:focus {
+    background-color: darken($blue, 15%);
+    color: $white;
+  }
+  border-radius: $base-border-radius;
+  width: 100%;
+}
+
+b {
+  font-size: 0.875em;
+  font-family: ConcourseCaps, $helvetica;
+  text-transform: lowercase;
+  font-weight: 600;
+  padding: 0.15em 0.25em 0.25em;
+  border: 2px solid $white;
+  border-radius: em(4);
+  vertical-align: text-top;
+  margin-left: 0.125em;
+}
+
+
+
+
+// -------------------------------------------------------------
+// Footer
+// -------------------------------------------------------------
+
+.site-footer {
+  text-align: center;
+  padding: 1em 1.25em 4em;
+  a {
+    color: $white;
+    &:hover,
+    &:active {
+      color: $blue;
+    }
+  }
+  small {
+    font-family: ConcourseCaps, $helvetica;
+    text-transform: lowercase;
+    display: block;
+    margin: 0;
+    font-size: 1em;
+    color: darken($green, 20%);
+  }
+}
+
+

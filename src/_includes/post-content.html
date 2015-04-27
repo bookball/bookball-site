@@ -1,0 +1,15 @@
+{% if post %}{% assign target = post %}
+{% else %}{% assign target = page %}
+{% endif %}
+
+<article class="post">
+
+  <h1 class="post-title"><a href="{{ target.url | prepend: site.baseurl }}">{{ target.title }}</a></h1>
+  
+  <span class="post-meta">{{ target.date | date: "%b %-d, %Y" }}{% if target.author %} • {{ target.author }}{% endif %}{% if target.meta %} • {{ target.meta }}{% endif %}</span>
+  
+  <div class="post-content">
+    {% if post %}{{ post.content }}{% else %}{{ content }}{% endif %}
+  </div>
+  
+</article>
