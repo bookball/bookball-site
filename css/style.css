@@ -696,13 +696,14 @@ body {
 }
 
 .logo {
-  background-image: url(http://bookball.github.io/bookball-site/assets/images/bookball-logo.png);
+  background-image: url(/assets/images/bookball-logo.png);
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
   text-indent: -99999px;
   max-width: 18.8125em;
   height: 2.75em;
+  margin: 0 auto 2em;
 }
 
 .page-content section {
@@ -738,10 +739,6 @@ body {
   font-weight: 600;
   font-size: 1.75em;
   margin-bottom: 1em;
-}
-
-.logo {
-  margin-bottom: 2em;
 }
 
 .sports-icons {
@@ -782,7 +779,8 @@ form {
   margin-bottom: 4em;
   padding: 1.5em 1em 1em;
   border-radius: 6px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  color: #383838;
 }
 form p {
   line-height: 1.25em;
@@ -803,16 +801,18 @@ input[type="email"] {
   color: #383838;
 }
 
-button {
+.button {
+  display: block;
   font-family: ConcourseCaps;
   text-transform: lowercase;
   background-color: #328df1;
   color: #fff;
   font-weight: 600;
-  border-radius: 6px;
+  border-radius: 64px;
   width: 100%;
+  line-height: 2.5em;
 }
-button:hover, button:focus {
+.button:hover, .button:focus {
   background-color: #0e67c9;
   color: #fff;
 }
@@ -823,7 +823,8 @@ b {
   text-transform: lowercase;
   font-weight: 600;
   padding: 0.15em 0.25em 0.25em;
-  border: 2px solid #fff;
+  border: 2px solid #383838;
+  color: #383838;
   border-radius: 0.25em;
   vertical-align: text-top;
   margin-left: 0.125em;
