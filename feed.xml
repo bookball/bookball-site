@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+  >
+  <channel>
+    <title xml:lang="en">Bookball</title>
+    <atom:link type="application/atom+xml" href="http://www.bookball.co/feed.xml" rel="self"/>
+    <link>http://www.bookball.co/</link>
+    <pubDate>Mon, 27 Apr 2015 11:26:30 +0100</pubDate>
+    <lastBuildDate>Mon, 27 Apr 2015 11:26:30 +0100</lastBuildDate>
+    <language>pt</language>
+    <generator>Jekyll v3.0.0-beta1</generator>
+    <description>A melhor maneira de organizar jogos com amigos. Brevemente disponível na App Store.
+</description>
+    <image>
+      <description>A melhor maneira de organizar jogos com amigos. Brevemente disponível na App Store.
+</description>
+      <url>http://www.bookball.co/favicon-512.png</url>
+      <title>Bookball</title>
+      <link>http://www.bookball.co/</link>
+      <width>512</width>
+      <height>512</height>
+    </image>
+    
+  </channel>
+</rss>

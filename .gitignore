@@ -1,8 +1,2 @@
 .DS_Store
 .sass-cache
-
-site
-src/.jekyll-metadata
-src/css
-src/sass/build
-src/sass/lib
