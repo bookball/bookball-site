@@ -1,12 +1,15 @@
 # Site settings
 title: Bookball
 description: > # this means to ignore newlines until "baseurl:"
-  A melhor maneira de organizar jogos com amigos. Brevemente disponível na App Store.
+  Challenge. Book. Play. O Bookball é a melhor maneira de organizar jogos com amigos. Brevemente disponível na App Store.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.bookball.co" # the base hostname & protocol for your site
+url: "http://beta.bookball.co" # the base hostname & protocol for your site
 email: play@bookball.co
 copyright: ©2015 Bookball
 language: pt
+facebook: bookballapp
+twitter: bookball
+instagram: bookballapp
 
 # Build settings
 source: ./src
