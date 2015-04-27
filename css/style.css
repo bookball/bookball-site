@@ -696,7 +696,7 @@ body {
 }
 
 .logo {
-  background-image: url(/assets/images/bookball-logo.png);
+  background-image: url(http://bookball.github.io/bookball-site/assets/images/bookball-logo.png);
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
