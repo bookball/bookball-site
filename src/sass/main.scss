@@ -111,6 +111,9 @@ body {
   max-width: 23em;
   text-align: center;
   padding: 0 1.5em;
+  @include media($large-screen-up) {
+    max-width: 44em;
+  }
 }
 
 
@@ -153,8 +156,13 @@ body {
 }
 
 .hero-wrapper {
+  background-color: $dark-gray;
   .wrapper {
     padding-top: 2.5em;
+    @include media ($large-screen-up) {
+      padding-top: 6em;
+      padding-bottom: 3em;
+    }
   }
   p {
     font-size: 1.5em;
@@ -173,6 +181,9 @@ body {
     font-weight: 600;
     font-size: 1.75em;
     margin-bottom: 1em;
+    @include media ($large-screen-up) {
+      margin-bottom: 0.25em;
+    }
   }
 }
 
@@ -180,6 +191,20 @@ body {
   width: 151px;
   margin: 0 auto;
   padding-bottom: 3em;
+  @include media($large-screen-up) {
+    padding-bottom: 2.5em;
+  }
+}
+
+@include media ($large-screen-up) {
+  .wrapper-right {
+    float: right;
+    width: 45%;
+  }
+  .wrapper-left {
+    float: left;
+    width: 42%;
+  }
 }
 
 
@@ -216,13 +241,22 @@ body {
 
 .hero-full {
   display: none;
+  @include media ($large-screen-up) {
+    display: block;
+    margin-bottom: -100em;
+    margin-top: -2em;
+  }
+}
+
+.hero-half {
+  @include media ($large-screen-up) {
+    display: none;
+  }
 }
 
 img {
   display: block;
 }
-
-
 
 
 
@@ -241,6 +275,9 @@ img {
 
 form {
   margin-bottom: 4em;
+  @include media($large-screen-up) {
+    margin-bottom: 2.5em;
+  }
   p {
     line-height: 1.25em;
     margin-bottom: 1.75em;
