@@ -227,7 +227,16 @@ body {
   width: 36px;
   height: 30px;
   background-size: contain;
-  text-indent: -99999px;
+  svg {
+    width: 36px;
+    height: 30px;
+  }
+  svg path {
+    fill: $white;
+  }
+  svg:hover path {
+    fill: $blue;
+  }
 }
 
 

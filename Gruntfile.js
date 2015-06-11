@@ -107,6 +107,7 @@ module.exports = function(grunt) {
                 dest: "src/assets/icons"
             }],
             options: {
+              enhanceSVG: true
             }
         }
     },
