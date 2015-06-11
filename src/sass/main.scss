@@ -103,7 +103,7 @@ html, body {
 
 body {
   color: $white;
-  background: $dark-gray;
+  background: $green;
 }
  
 .wrapper {
@@ -161,7 +161,7 @@ body {
     padding-top: 2.5em;
     @include media ($large-screen-up) {
       padding-top: 6em;
-      padding-bottom: 3em;
+      padding-bottom: 1em;
     }
   }
   p {
@@ -180,19 +180,7 @@ body {
   .tagline {
     font-weight: 600;
     font-size: 1.75em;
-    margin-bottom: 1em;
-    @include media ($large-screen-up) {
-      margin-bottom: 0.25em;
-    }
-  }
-}
-
-.sports-icons {
-  width: 151px;
-  margin: 0 auto;
-  padding-bottom: 3em;
-  @include media($large-screen-up) {
-    padding-bottom: 2.5em;
+    margin-bottom: 0.25em;
   }
 }
 
@@ -221,6 +209,8 @@ body {
   ul li + li {
     margin-left: 1em;
   }
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 .icon {
@@ -352,6 +342,8 @@ b {
 .site-footer {
   text-align: center;
   padding: 1em 1.25em 4em;
+  font-family: ConcourseCaps, $helvetica;
+  text-transform: lowercase;
   a {
     color: $white;
     &:hover,
@@ -360,8 +352,6 @@ b {
     }
   }
   small {
-    font-family: ConcourseCaps, $helvetica;
-    text-transform: lowercase;
     display: block;
     margin: 0;
     font-size: 1em;
