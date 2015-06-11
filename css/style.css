@@ -741,18 +741,11 @@ body {
   line-height: 1.25em;
   font-weight: 600;
   max-width: 12em;
-  margin: 0 auto 0.25em;
-}
-@media screen and (min-width: 53.75em) {
-  .headline {
-    margin-top: 1em;
-  }
+  margin: 1em auto 0.25em;
 }
 
-@media screen and (min-width: 53.75em) {
-  .coming-soon {
-    margin-top: 1.75em;
-  }
+.coming-soon {
+  margin-top: 1.75em;
 }
 
 @media screen and (min-width: 53.75em) {
