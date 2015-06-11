@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'ConcourseCaps';
+    font-family: 'Concourse-C';
     src: url('../assets/fonts/concourse_c3_regular-webfont.eot');
     src: url('../assets/fonts/concourse_c3_regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('../assets/fonts/concourse_c3_regular-webfont.woff2') format('woff2'),
@@ -13,7 +13,7 @@
 }
 
 @font-face {
-    font-family: 'ConcourseCaps';
+    font-family: 'Concourse-C';
     src: url('../assets/fonts/concourse_c6_regular-webfont.eot');
     src: url('../assets/fonts/concourse_c6_regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('../assets/fonts/concourse_c6_regular-webfont.woff2') format('woff2'),
@@ -25,7 +25,7 @@
 }
 
 @font-face {
-    font-family: 'Concourse';
+    font-family: 'Concourse-T';
     src: url('../assets/fonts/concourse_t3_regular-webfont.eot');
     src: url('../assets/fonts/concourse_t3_regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('../assets/fonts/concourse_t3_regular-webfont.woff2') format('woff2'),
@@ -37,7 +37,7 @@
 }
 
 @font-face {
-    font-family: 'Concourse';
+    font-family: 'Concourse-T';
     src: url('../assets/fonts/concourse_t6_regular-webfont.eot');
     src: url('../assets/fonts/concourse_t6_regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('../assets/fonts/concourse_t6_regular-webfont.woff2') format('woff2'),
@@ -267,7 +267,7 @@ form {
 
 .button {
   display: block;
-  font-family: ConcourseCaps;
+  font-family: $caps-font-family;
   text-transform: lowercase;
   background-color: $blue;
   color: $white;
@@ -292,7 +292,7 @@ form {
 .site-footer {
   text-align: center;
   padding: 1em 1.25em 4em;
-  font-family: ConcourseCaps, $helvetica;
+  font-family: $caps-font-family;
   text-transform: lowercase;
   a {
     color: $white;
