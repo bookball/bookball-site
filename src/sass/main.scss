@@ -140,12 +140,6 @@ body {
       padding-bottom: 1em;
     }
   }
-  p {
-    font-size: 1.5em;
-    line-height: 1.25em;
-    font-weight: 300;
-    margin-bottom: 1.5em;
-  }
 }
 
 .body-wrapper {
@@ -153,11 +147,20 @@ body {
   .wrapper {
     padding-top: 2em;
   }
-  .tagline {
-    font-weight: 600;
-    font-size: 1.75em;
-    margin-bottom: 0.25em;
-  }
+}
+
+.tagline {
+  font-weight: 300;
+  font-size: 1.75em;
+  margin-bottom: 1.5em;
+}
+
+.headline {
+  font-size: 1.375em;
+  line-height: 1.25em;
+  font-weight: 600;
+  max-width: 12em;
+  margin: 0 auto 0.25em;
 }
 
 @include media ($large-screen-up) {
