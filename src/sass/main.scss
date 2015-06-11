@@ -229,6 +229,17 @@ body {
 }
 
 .hero-half {
+  position: relative;
+  width: 100%;
+  background-image: url(../assets/images/iphone.png);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  &:before {
+    content: "";
+    display: block;
+    padding-top: 136%;
+  }
   @include media ($large-screen-up) {
     display: none;
   }
