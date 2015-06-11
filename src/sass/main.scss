@@ -161,6 +161,15 @@ body {
   font-weight: 600;
   max-width: 12em;
   margin: 0 auto 0.25em;
+  @include media($large-screen-up) {
+    margin-top: 1em;
+  }
+}
+
+.coming-soon {
+  @include media($large-screen-up) {
+    margin-top: 1.75em;
+  }
 }
 
 @include media ($large-screen-up) {
