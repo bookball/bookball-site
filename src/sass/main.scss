@@ -14,18 +14,6 @@
 
 @font-face {
     font-family: 'ConcourseCaps';
-    src: url('../assets/fonts/concourse_c4_regular-webfont.eot');
-    src: url('../assets/fonts/concourse_c4_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../assets/fonts/concourse_c4_regular-webfont.woff2') format('woff2'),
-         url('../assets/fonts/concourse_c4_regular-webfont.woff') format('woff'),
-         url('../assets/fonts/concourse_c4_regular-webfont.ttf') format('truetype'),
-         url('../assets/fonts/concourse_c4_regular-webfont.svg#concourse_c4regular') format('svg');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'ConcourseCaps';
     src: url('../assets/fonts/concourse_c6_regular-webfont.eot');
     src: url('../assets/fonts/concourse_c6_regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('../assets/fonts/concourse_c6_regular-webfont.woff2') format('woff2'),
@@ -45,18 +33,6 @@
          url('../assets/fonts/concourse_t3_regular-webfont.ttf') format('truetype'),
          url('../assets/fonts/concourse_t3_regular-webfont.svg#concourse_t3regular') format('svg');
     font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Concourse';
-    src: url('../assets/fonts/concourse_t4_regular-webfont.eot');
-    src: url('../assets/fonts/concourse_t4_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../assets/fonts/concourse_t4_regular-webfont.woff2') format('woff2'),
-         url('../assets/fonts/concourse_t4_regular-webfont.woff') format('woff'),
-         url('../assets/fonts/concourse_t4_regular-webfont.ttf') format('truetype'),
-         url('../assets/fonts/concourse_t4_regular-webfont.svg#concourse_t4regular') format('svg');
-    font-weight: 400;
     font-style: normal;
 }
 
@@ -217,6 +193,11 @@ body {
   width: 36px;
   height: 30px;
   background-size: contain;
+  .icon-label {
+    display: inline-block;
+    text-indent: -9999px;
+    margin: 0;
+  }
   svg {
     width: 36px;
     height: 30px;
@@ -266,12 +247,6 @@ img {
 
 
 
-.beta-text {
-  font-weight: 400;
-  font-size: 1.5em;
-  margin-bottom: 1em;
-}
-
 form {
   margin-bottom: 4em;
   @include media($large-screen-up) {
@@ -287,18 +262,6 @@ form {
   padding: 1.5em 1em 1em;
   border-radius: $base-border-radius;
   background-color: $white;
-  color: $dark-gray;
-  //border: 1px solid rgba($black, 0.2);
-}
-
-input {
-  height: 2.5em;
-  width: 100%;
-  text-align: center;
-}
-
-input[type="text"],
-input[type="email"] {
   color: $dark-gray;
 }
 
@@ -317,19 +280,6 @@ input[type="email"] {
   border-radius: 64px;
   width: 100%;
   line-height: 2.5em;
-}
-
-b {
-  font-size: 0.875em;
-  font-family: ConcourseCaps, $helvetica;
-  text-transform: lowercase;
-  font-weight: 600;
-  padding: 0.15em 0.25em 0.25em;
-  border: 2px solid $dark-gray;
-  color: $dark-gray;
-  border-radius: em(4);
-  vertical-align: text-top;
-  margin-left: 0.125em;
 }
 
 
