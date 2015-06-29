@@ -78,18 +78,26 @@ html, body {
 }
 
 body {
+  background: $white;
+  color: $dark-gray;
+}
+
+body.homepage {
   color: $white;
   background: $green;
 }
- 
+
 .wrapper {
   @include outer-container;
   max-width: 23em;
-  text-align: center;
-  padding: 0 1.5em;
   @include media($large-screen-up) {
     max-width: 44em;
-  }
+  }  
+}
+
+.homepage .wrapper {
+  text-align: center;
+  padding: 0 1.5em;
 }
 
 
@@ -110,6 +118,25 @@ body {
   margin: 0 auto 2em;
 }
 
+.site-header {
+  background-color: $dark-gray;
+  padding: 1.5em 1.25em;
+}
+
+.site-title {
+  margin: 0;
+  text-align: center;
+  @include media($large-screen-up) {
+    text-align: left;
+  }
+  img {
+    height: 1.75em;
+    @include media($large-screen-up) {
+      height: 2em;
+    }
+    display: inline-block;
+  }
+}
 
 
 
@@ -307,12 +334,62 @@ form {
 
 
 // -------------------------------------------------------------
+// Clubs Page
+// -------------------------------------------------------------
+
+.clubs-header {
+  text-align: center;
+  padding: 1em 0 0.5em;
+  @include media($large-screen-up) {
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding-top: 1.5em;
+  }
+  h2 {
+    font-family: $caps-font-family;
+    text-transform: lowercase;
+    font-size: 1.75em;
+    letter-spacing: em(1);
+    margin: 0;
+  }
+  p {
+    font-size: 1.25em;
+    line-height: 1.25em;
+  }
+}
+
+.clubs-image {
+  padding: 1em 0 0.5em;
+  @include media($large-screen-up) {
+    width: 45%;
+    float: right;
+  }
+}
+
+.clubs-body {
+  padding: 1em 0 0.5em;
+  h3 {
+    margin-top: 1em;
+    margin-bottom: 0.25em;
+  }
+  @include media($large-screen-up) {
+    width: 50%;
+    float: left;
+    clear: left;
+    padding-top: 0;
+  }
+}
+
+
+
+// -------------------------------------------------------------
 // Footer
 // -------------------------------------------------------------
 
 .site-footer {
   text-align: center;
-  padding: 0 1.25em 4em;
+  padding: 1em 1.25em 4em;
   font-family: $caps-font-family;
   text-transform: lowercase;
   a {
@@ -326,8 +403,12 @@ form {
     display: block;
     margin: 0;
     font-size: 1em;
-    color: darken($green, 20%);
+    color: rgba(black, 0.4);
   }
+}
+
+.homepage .site-footer {
+  padding-top: 0;
 }
 
 
