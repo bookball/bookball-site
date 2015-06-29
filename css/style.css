@@ -663,6 +663,11 @@ html, body {
 }
 
 body {
+  background: #fff;
+  color: #383838;
+}
+
+body.homepage {
   color: #fff;
   background: #3bd23d;
 }
@@ -672,8 +677,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-width: 23em;
-  text-align: center;
-  padding: 0 1.5em;
 }
 .wrapper::after {
   clear: both;
@@ -686,6 +689,11 @@ body {
   }
 }
 
+.homepage .wrapper {
+  text-align: center;
+  padding: 0 1.5em;
+}
+
 .logo {
   background-image: url(/assets/images/bookball-logo.png);
   background-position: center center;
@@ -695,6 +703,30 @@ body {
   max-width: 18.8125em;
   height: 2.75em;
   margin: 0 auto 2em;
+}
+
+.site-header {
+  background-color: #383838;
+  padding: 1.5em 1.25em;
+}
+
+.site-title {
+  margin: 0;
+  text-align: center;
+}
+@media screen and (min-width: 53.75em) {
+  .site-title {
+    text-align: left;
+  }
+}
+.site-title img {
+  height: 1.75em;
+  display: inline-block;
+}
+@media screen and (min-width: 53.75em) {
+  .site-title img {
+    height: 2em;
+  }
 }
 
 .page-content section {
@@ -864,9 +896,59 @@ form p:last-child {
   color: #fff;
 }
 
+.clubs-header {
+  text-align: center;
+  padding: 1em 0 0.5em;
+}
+@media screen and (min-width: 53.75em) {
+  .clubs-header {
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding-top: 1.5em;
+  }
+}
+.clubs-header h2 {
+  font-family: "Concourse-C", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  text-transform: lowercase;
+  font-size: 1.75em;
+  letter-spacing: 0.0625em;
+  margin: 0;
+}
+.clubs-header p {
+  font-size: 1.25em;
+  line-height: 1.25em;
+}
+
+.clubs-image {
+  padding: 1em 0 0.5em;
+}
+@media screen and (min-width: 53.75em) {
+  .clubs-image {
+    width: 45%;
+    float: right;
+  }
+}
+
+.clubs-body {
+  padding: 1em 0 0.5em;
+}
+.clubs-body h3 {
+  margin-top: 1em;
+  margin-bottom: 0.25em;
+}
+@media screen and (min-width: 53.75em) {
+  .clubs-body {
+    width: 50%;
+    float: left;
+    clear: left;
+    padding-top: 0;
+  }
+}
+
 .site-footer {
   text-align: center;
-  padding: 0 1.25em 4em;
+  padding: 1em 1.25em 4em;
   font-family: "Concourse-C", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   text-transform: lowercase;
 }
@@ -880,5 +962,9 @@ form p:last-child {
   display: block;
   margin: 0;
   font-size: 1em;
-  color: #1f8821;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.homepage .site-footer {
+  padding-top: 0;
 }
