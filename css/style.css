@@ -704,7 +704,6 @@ body.homepage {
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
-  text-indent: -99999px;
   height: 2em;
   width: 13em;
   margin: 0 auto;
@@ -714,6 +713,8 @@ body.homepage {
   position: absolute;
   width: 100%;
   height: 100%;
+  display: block;
+  text-indent: -99999px;
 }
 @media screen and (min-width: 53.75em) {
   .logo {
@@ -725,6 +726,7 @@ body.homepage {
   max-width: 18.8125em;
   height: 2.75em;
   margin: 0 auto 2em;
+  text-indent: -99999px;
 }
 
 .site-header {
@@ -905,7 +907,7 @@ form p:last-child {
 }
 @media screen and (min-width: 53.75em) {
   .clubs-header {
-    width: 50%;
+    width: 48%;
     float: left;
     text-align: left;
     padding-top: 1.5em;
@@ -943,7 +945,7 @@ form p:last-child {
 }
 @media screen and (min-width: 53.75em) {
   .clubs-body {
-    width: 50%;
+    width: 48%;
     float: left;
     clear: left;
     padding-top: 0;
