@@ -907,7 +907,7 @@ form p:last-child {
 }
 @media screen and (min-width: 53.75em) {
   .clubs-header {
-    width: 48%;
+    width: 50%;
     float: left;
     text-align: left;
     padding-top: 1.5em;
@@ -945,7 +945,7 @@ form p:last-child {
 }
 @media screen and (min-width: 53.75em) {
   .clubs-body {
-    width: 48%;
+    width: 50%;
     float: left;
     clear: left;
     padding-top: 0;
