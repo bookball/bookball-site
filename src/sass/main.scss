@@ -346,7 +346,7 @@ form {
   text-align: center;
   padding: 1em 0 0.5em;
   @include media($large-screen-up) {
-    width: 48%;
+    width: 50%;
     float: left;
     text-align: left;
     padding-top: 1.5em;
@@ -380,7 +380,7 @@ form {
     margin-bottom: 0.25em;
   }
   @include media($large-screen-up) {
-    width: 48%;
+    width: 50%;
     float: left;
     clear: left;
     padding-top: 0;
