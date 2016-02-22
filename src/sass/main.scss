@@ -390,6 +390,39 @@ form {
 
 
 // -------------------------------------------------------------
+// Pages
+// -------------------------------------------------------------
+
+.page-content {
+  h1 {
+    text-transform: uppercase;
+    margin-top: 2em;
+  }
+  h2 {
+    font-size: 1.25em;
+    text-transform: uppercase;
+    margin-top: 2em;
+  }
+  h3 {
+    margin-top: 1em;
+  }
+  ul {
+    margin-bottom: 1em;
+    @extend %default-ul;
+  }
+  ol {
+    margin-bottom: 1em;
+    @extend %default-ol;
+    &[type="a"] {
+      list-style-type: lower-alpha;
+    }
+  }
+}
+
+
+
+
+// -------------------------------------------------------------
 // Footer
 // -------------------------------------------------------------
 
