@@ -8,6 +8,11 @@ title: Termos e Condições
 - [Cancellation Policy](#cancellation-policy)
 
 
+
+* * *
+
+
+
 # Terms and Conditions
 
 ## A. Contractual Relationship
@@ -247,8 +252,7 @@ Deliver this Notice, with all items completed, to Bookball:
 
 
 
-
-
+* * *
 
 
 
@@ -366,8 +370,7 @@ We may update this privacy statement to reflect changes to our information pract
 
 
 
-
-
+* * *
 
 
 
