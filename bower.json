@@ -1,0 +1,14 @@
+{
+  "name": "neat-boilerplate",
+  "version": "0.2.0",
+  "author": "Joao Beleza Freire",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joaobfreire/neat-boilerplate.git"
+  },
+  "devDependencies": {
+    "normalize-css": "~3.0.2",
+    "bourbon": "~4.2.1",
+    "neat": "~1.7.2"
+  }
+}

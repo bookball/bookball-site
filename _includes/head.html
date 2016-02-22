@@ -1,16 +1,13 @@
-<!DOCTYPE html>
-<html lang="pt">
-
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
-    <title>Bookball – Bookball Manager</title>
-    <meta name="description" content="O Bookball Manager é a solução gratuita para gestão de reservas. Uma web app compatível com desktop ou tablet, que permite gerir reservas de forma simples e em qualquer lugar. É um canal de venda e uma ferramenta de marketing.">
+    <title>{% if page.title %}{{ site.title }} – {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     
-    <link rel="canonical" href="http://beta.bookball.co/manager/">
-    <link rel="stylesheet" href="/css/style.min.css">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/css/style.min.css" | prepend: site.baseurl }}">
     <link rel="apple-touch-icon-precomposed" href="/favicon-512.png">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/favicon-512.png">
@@ -25,54 +22,3 @@
 		<noscript><link href="/assets/icons/icons.fallback.css" rel="stylesheet"></noscript>
 
 </head>
-
-
-  <body>
-
-    <header class="site-header">
-  <div class="wrapper">
-    <h1 class="logo"><a href="/">Bookball</a></h1>
-  </div>
-</header>
-
-
-    <div class="page-content">
-      <section>
-  <div class="wrapper">
-        
-    <div class="clubs-header">
-  <h2>Bookball Manager</h2>
-  <p>A solução gratuita para gestão de reservas.</p>
-</div>
-
-<div class="clubs-image">
-  <img src="/assets/images/manager.png">
-</div>
-  
-<div class="clubs-body">
-  <h3>O que é?</h3>
-  <p>Uma web app para desktop ou tablet, que permite gerir reservas de forma simples e em qualquer lugar. É um canal de venda e uma ferramenta de marketing.</p>
-  
-  <h3>Para quem?</h3>
-  <p>Para qualquer pessoa que tenha uma infraestrutura desportiva e a queira rentabilizar. Clubes, condomínios, escolas, universidades, centros desportivos, etc.</p>
-  
-  <h3>Como posso fazer parte?</h3>
-  <p>Envie um email para <a href="mailto:business@bookball.co">business@bookball.co</a> e a nossa equipa faz o resto.</p>
-</div>
-
-    
-  </div>
-</section>
-
-    </div>
-
-    <footer class="site-footer">
-        
-    <small>©2015 Bookball</small>
-  
-</footer>
-
-
-  </body>
-
-</html>

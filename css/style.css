@@ -554,6 +554,17 @@ ol {
   margin: 0;
   padding: 0;
 }
+.page-content ul {
+  list-style-type: disc;
+  margin-bottom: 0.75em;
+  padding-left: 1.5em;
+}
+.page-content ol {
+  list-style-type: decimal;
+  margin-bottom: 0.75em;
+  padding-left: 1.5em;
+}
+
 dl {
   margin-bottom: 0.75em;
 }
@@ -778,11 +789,11 @@ body.homepage {
   line-height: 1.25em;
   font-weight: 600;
   max-width: 12em;
-  margin: 1em auto 0.25em;
+  margin: 0.5em auto 1.5em;
 }
 
 .coming-soon {
-  margin-top: 1.75em;
+  opacity: 0.3;
 }
 
 @media screen and (min-width: 53.75em) {
@@ -796,6 +807,18 @@ body.homepage {
     width: 42%;
   }
 }
+.store-badge {
+  height: 3em;
+}
+.store-badge a {
+  display: block;
+  height: inherit;
+}
+.store-badge img {
+  height: inherit;
+  margin: 0 auto;
+}
+
 .social {
   margin-top: 2em;
   margin-bottom: 2em;
@@ -950,6 +973,28 @@ form p:last-child {
     clear: left;
     padding-top: 0;
   }
+}
+
+.page-content h1 {
+  text-transform: uppercase;
+  margin-top: 2em;
+}
+.page-content h2 {
+  font-size: 1.25em;
+  text-transform: uppercase;
+  margin-top: 2em;
+}
+.page-content h3 {
+  margin-top: 1em;
+}
+.page-content ul {
+  margin-bottom: 1em;
+}
+.page-content ol {
+  margin-bottom: 1em;
+}
+.page-content ol[type="a"] {
+  list-style-type: lower-alpha;
 }
 
 .site-footer {

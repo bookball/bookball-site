@@ -1,2 +1,10 @@
 .DS_Store
 .sass-cache
+
+_site
+.jekyll-metadata
+sass/build
+sass/lib
+
+bower_components
+node_modules
