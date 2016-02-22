@@ -192,11 +192,11 @@ body.homepage {
   line-height: 1.25em;
   font-weight: 600;
   max-width: 12em;
-  margin: 1em auto 0.25em;
+  margin: 0.5em auto 1.5em;
 }
 
 .coming-soon {
-  margin-top: 1.75em;
+  opacity: 0.3;
 }
 
 @include media ($large-screen-up) {
@@ -207,6 +207,18 @@ body.homepage {
   .wrapper-left {
     float: left;
     width: 42%;
+  }
+}
+
+.store-badge {
+  height: 3em;
+  a {
+    display: block;
+    height: inherit;
+  }
+  img {
+    height: inherit;
+    margin: 0 auto;
   }
 }
 
