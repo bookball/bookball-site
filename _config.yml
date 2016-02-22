@@ -12,8 +12,5 @@ twitter: bookballapp
 instagram: bookballapp
 
 # Build settings
-source: ./src
-destination: ./site
-markdown: kramdown
 permalink: pretty
-exclude: [sass]
+exclude: [bower_components, bower.json, Gruntfile.js, node_modules, sass]
