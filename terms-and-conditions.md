@@ -17,9 +17,9 @@ title: Termos e Condições
 
 ## A. Contractual Relationship
 
-These terms and conditions ("_Terms_"), as may be amended from time to time, applies to all of our brands, products and services (hereafter collectively referred to as "_Services_") and governs our relationship with users and any other entity who interacts with "_Bookball_".
+These terms and conditions (“Terms”), as may be amended from time to time, applies to all of our brands, products and services (hereafter collectively referred to as “Services”) and governs our relationship with users and any other entity who interacts with “Bookball”.
 
-By accessing and using our Mobile Application ("_Application_") made available through whatever platform and/or by completing a reservation, you acknowledge and agree to have read, understood and agreed to the terms and conditions set out below.
+By accessing and using our Mobile Application (“Application”) made available through whatever platform and/or by completing a reservation, you acknowledge and agree to have read, understood and agreed to the terms and conditions set out below.
 
 If you do not agree to these Terms, you may not access or use the Services.
 
@@ -27,15 +27,17 @@ Bookball may immediately terminate these Terms or any Services with respect to y
 
 This agreement was written in English (US) and to the extent any translated version of this agreement conflicts with the English version, the English version controls.
 
-Date of Last Revision: February 16, 2016
+Date of Last Revision: May 11, 2017
 
 ## B. The Services
 
-The Services constitute a technology platform that enables users of Bookball's mobile applications to arrange and book a sports venue with third party providers of such services and under agreement with Bookball or certain of Bookball's subsidiaries ("_Third Party Providers_"). Unless otherwise agreed by Bookball in a separate written agreement with you, the Services are made available solely for your personal, noncommercial use.
+The Services constitute a technology platform that enables users of Bookball’s mobile applications to arrange and book a sports venue with third party providers of such services ("Clubs") and under agreement with Bookball or certain of Bookball’s subsidiaries.
 
-YOU ACKNOWLEDGE THAT BOOKBALL DOES NOT OWN OR IS RESPONSIBLE FOR, THE SPORTS VENUES OR THE SPORTS FACILITIES. BOOKBALL'S SERVICES MAY BE USED BY YOU TO CONSULT AVAILABILITY AND BOOK A SPORTS VENUE WITH THIRD PARTY PROVIDERS, BUT YOU AGREE THAT BOOKBALL HAS NO RESPONSIBILITY OR LIABILITY TO YOU RELATED TO ANY VENUE RENTING SERVICE PROVIDED TO YOU BY THIRD PARTY PROVIDERS THROUGH THE USE OF THE SERVICES OTHER THAN AS EXPRESSLY SET FORTH IN THESE TERMS.
+Unless otherwise agreed by Bookball in a separate written agreement with you, the Services are made available solely for your personal, noncommercial use.
 
-BOOKBALL DOES NOT GUARANTEE THE SUITABILITY, SAFETY OR AVALABILITY OF THIRD PARTY FACILITIES. IT IS SOLELY YOUR RESPONSIBILITY TO DETERMINE IF A THIRD PARTY PROVIDER WILL MEET YOUR NEEDS AND EXPECTATIONS. BOOKBALL WILL NOT PARTICIPATE IN DISPUTES BETWEEN YOU AND A THIRD PARTY PROVIDER. BOOKBALL SHALL NOT HAVE ANY LIABILITY ARISING FROM OR IN ANY WAY RELATED TO YOUR TRANSACTIONS OR RELATIONSHIP WITH THIRD PARTY PROVIDERS.
+YOU ACKNOWLEDGE THAT BOOKBALL DOES NOT OWN OR IS RESPONSIBLE FOR, THE SPORTS VENUES OR THE SPORTS FACILITIES. BOOKBALL’S SERVICES MAY BE USED BY YOU TO CONSULT AVAILABILITY AND BOOK A SPORTS VENUE WITH CLUBS, BUT YOU AGREE THAT BOOKBALL HAS NO RESPONSIBILITY OR LIABILITY TO YOU RELATED TO ANY VENUE RENTING SERVICE PROVIDED TO YOU BY CLUBS THROUGH THE USE OF THE SERVICES OTHER THAN AS EXPRESSLY SET FORTH IN THESE TERMS.
+
+BOOKBALL DOES NOT GUARANTEE THE SUITABILITY, SAFETY OR AVALABILITY OF THIRD PARTY FACILITIES. IT IS SOLELY YOUR RESPONSIBILITY TO DETERMINE IF A THIRD PARTY PROVIDER WILL MEET YOUR NEEDS AND EXPECTATIONS. BOOKBALL WILL NOT PARTICIPATE IN DISPUTES BETWEEN YOU AND A THIRD PARTY PROVIDER. BOOKBALL SHALL NOT HAVE ANY LIABILITY ARISING FROM OR IN ANY WAY RELATED TO YOUR TRANSACTIONS OR RELATIONSHIP WITH CLUBS.
 
 ### 1. Licensee
 
@@ -63,7 +65,9 @@ You may not:
 
 ### 3. Third party services and content
 
-The Services may be made available or accessed in connection with third-party services and content (including advertising) that Bookball does not control. You acknowledge that different terms of use and privacy policies may apply to your use of such third-party services and content. Bookball does not endorse such third party services and content and in no event shall Bookball be responsible or liable for any products or services of such third party providers. Additionally, Apple Inc. or Google, Inc. will be a third-party beneficiary to this contract if you access the Services using Applications developed for Apple iOS or Android, respectively. These third-party beneficiaries are not parties to this contract and are not responsible for the provision or support of the Services in any manner. Your access to the Services using these devices is subject to terms set forth in the applicable third-party beneficiary's terms of service.
+The Services may be made available or accessed in connection with third-party services and content (including advertising) that Bookball does not control. You acknowledge that different terms of use and privacy policies may apply to your use of such third-party services and content. Bookball does not endorse such third party services and content and in no event shall Bookball be responsible or liable for any products or services of such third party providers. 
+
+Additionally, Apple Inc. or Google, Inc. will be a third-party beneficiary to this contract if you access the Services using Applications developed for Apple iOS or Android, respectively. These third-party beneficiaries are not parties to this contract and are not responsible for the provision or support of the Services in any manner. Your access to the Services using these devices is subject to terms set forth in the applicable third-party beneficiary's terms of service.
 
 ### 4. Ownership
 
@@ -124,41 +128,15 @@ You agree to not provide User Content that is defamatory, libelous, hateful, vio
 
 You are responsible for obtaining the data network access necessary to use the Services. Your mobile network's data and messaging rates and fees may apply if you access or use the Services from a wireless-enabled device. You are responsible for acquiring and updating compatible hardware or devices necessary to access and use the Services and Applications and any updates there to. Bookball does not guarantee that the Services, or any portion thereof, will function on any particular hardware or devices. In addition, the Services may be subject to malfunctions and delays inherent in the use of the Internet and electronic communications.
 
-## D. Payment
+### 10. Invoices
 
-You understand that your use of the Services may result in payments by you for the services you receive from a Third Party Provider ("_Fees_").
+Bookball is not responsible for raising any invoice directly to you with regard to your use of the service or acquisition of products at Bookball or in any other platform related with Bookball.
 
-### 10. Booking Fee
-
-To book a venue, Bookball will charge you a booking Fee, which will represent a percentage of the total reservation value to be paid by all players. Bookball booking Fee is 25%.
-
-Payment of the Fees in such manner shall be considered the same as payment made directly by you to the Third Party Provider. Fees will be inclusive of applicable taxes where required by law.
-
-### 11. Payment Method
-
-All payments and refunds made at Bookball are operated by Braintree, who will lately transfer the values to Bookball. Braintree is a payment system ("Payment System") which has the control mechanisms necessary to ensure the payment safety required by law, as detailed on their Terms.
-
-To charge the Fee, Braintree will be using the details supplied by you at each time you book a venue.
-
-### 12. Payment Receipts
-
-Bookball will only send you a payment receipt by email if you formally requested as such within the 72 hours after the time of the game. Such requests should be addressed to [support@bookball.co](mailto:support@bookball.co) with the email subject description _Receipt_. When requesting a receipt, you should supply your full name or full company description, address and fiscal number.
-
-### 13. Invoices
-
-Bookball is not responsible for raising any invoice directly to you with regard to your use of the service or acquisition of products at Bookball. We are not the providers of the service nor the owners of the products you purchase at Bookball. We are only a selling channel.
+We are not the providers of the service nor the owners of the products you purchase at Bookball. We are only a selling channel.
 
 If you need an invoice, you should request it directly to the Third Party Service provider from who you are requesting the service or buying the product.
 
-### 14. Payment process
-
-When you book a venue, the Payment System blocks the Fee value on your credit card and once the time of the game passes, if you, or the club don't cancel that reservation, the charge will be automatically made on your credit card.
-
-The payment will be facilitated by the Payment System using the preferred payment method designated by you at the time you book a venue. If your payment method is determined to be expired, invalid or otherwise not able to be charged, you agree that Bookball may, as the Third Party Provider's limited payment collection agent, use a secondary payment method in your Account, if available.
-
-You may cancel your request for Services from a Third Party Provider at any time prior to the game. WE ENCOURAGE YOU TO READ BOOKBALL CANCELLATION POLICY BEFORE USING THE SERVICE.
-
-### 15. Prices
+### 11. Prices
 
 Bookball reserves the right to establish, remove and/or revise Fees for any or all aspects of the Services at any time in Bookball's sole discretion. Bookball will use reasonable efforts to inform you of Fees that may apply, provided that you will be responsible for payments incurred under your Account regardless of your awareness of such Fees or the amounts thereof. Bookball may from time to time provide certain users with promotional offers and discounts that may result in different Fees for the same or similar Services, and you agree that such promotional offers and discounts, unless also made available to you, shall have no bearing on your use of the Services or the Fees applied to you.
 
@@ -166,15 +144,15 @@ The total reservation price you pay when you book at Bookball, it's the announce
 
 If a Third Party Service Provider, changes the price of the venue you have already booked, that change will not affect your booking, as long as your booking was made and confirmed before the price change.
 
-## E. Disclaimers; Limitation of Liability; Indemnity
+## D. Disclaimers; Limitation of Liability; Indemnity
 
-### 16. Disclaimer
+### 12. Disclaimer
 
 THE SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE." BOOKBALL DISCLAIMS ALL REPRESENTATIONS AND WARRANTIES, EXPRESS, IMPLIED, OR STATUTORY, NOT EXPRESSLY SET OUT IN THESE TERMS, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN ADDITION, BOOKBALL MAKES NO REPRESENTATION, WARRANTY, OR GUARANTEE REGARDING THE RELIABILITY, TIMELINESS, QUALITY, SUITABILITY, OR AVAILABILITY OF THE SERVICES OR ANY GOODS OR SERVICES OBTAINED THROUGH THE USE OF THE SERVICES, OR THAT THE SERVICES WILL BE UNINTERRUPTED OR ERROR-FREE. YOU AGREE THAT THE ENTIRE RISK ARISING OUT OF YOUR USE OF THE SERVICES, AND ANY THIRD PARTY GOOD OR SERVICES OBTAINED IN CONNECTION THEREWITH, REMAINS SOLELY WITH YOU, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW.
 
 THIS DISCLAIMER DOES NOT ALTER YOUR RIGHTS AS A CONSUMER TO THE EXTENT NOT PERMITTED UNDER THE LAW IN THE JURISDICTION OF YOUR PLACE OF RESIDENCE.
 
-### 17. Limitation of Liability
+### 13. Limitation of Liability
 
 BOOKBALL SHALL NOT BE LIABLE TO YOU FOR INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, LOST DATA, PERSONAL INJURY, OR PROPERTY DAMAGE, EVEN IF BOOKBALL HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. BOOKBALL SHALL NOT BE LIABLE FOR ANY DAMAGES, LIABILITY OR LOSSES INCURRED BY YOU ARISING OUT OF:
 
@@ -187,7 +165,7 @@ IN NO EVENT SHALL BOOKBALL'S TOTAL LIABILITY TO YOU IN CONNECTION WITH THE SERVI
 
 THESE LIMITATIONS DO NOT PURPORT TO LIMIT LIABILITY THAT CANNOT BE EXCLUDED UNDER THE LAW IN THE JURISDICTION OF YOUR PLACE OF RESIDENCE.
 
-### 18. Indemnity
+### 14. Indemnity
 
 You agree to indemnify and hold Bookball and its officers, directors, employees and agents, harmless from any and all claims, demands, losses, liabilities, and expenses (including attorneys' fees), arising out of or in connection with:
 
@@ -198,23 +176,17 @@ You agree to indemnify and hold Bookball and its officers, directors, employees 
   <li>Your violation of the rights of any third party, including Third Party Providers.</li>
 </ol>
 
-## F. Dispute Resolution
+## E. Other provisions
 
-### 19. Arbitration
-
-You agree that any dispute, claim or controversy arising out of or relating to these Terms or the breach, termination, enforcement, interpretation or validity thereof or the use of the Services (collectively, "_Disputes_") will be settled by binding arbitration between you and Bookball, except that each party retains the right to bring an individual action in small claims court and the right to seek injunctive or other equitable relief in a court of competent jurisdiction to prevent the actual or threatened infringement, misappropriation or violation of a party's copyrights, trademarks, trade secrets, patents or other intellectual property rights. You acknowledge and agree that you and Bookball are each waiving the right to a trial by jury or to participate as a plaintiff or class in any purported class action or representative proceeding. Further, unless both you and Bookball otherwise agree in writing, the arbitrator may not consolidate more than one person's claims, and may not otherwise preside over any form of any class or representative proceeding. If this specific paragraph is held unenforceable, then the entirety of this "_Dispute Resolution_" section will be deemed void. Except as provided in the preceding sentence, this Dispute Resolution section will survive any termination of these Terms.
-
-## G. Other provisions
-
-### 20. Choice of law
+### 15. Choice of law
 
 These Terms are governed by and construed in accordance with the laws of the district of Lisbon, Portugal, without giving effect to any conflict of law principles.
 
-### 21. Notice
+### 16. Notice
 
 Bookball may give notice by means of a general notice on the Services, or electronic mail to your email address in your Account. Such notice shall be deemed to have been given 12 hours after sending (if sent by email). You may give notice to Bookball, with such notice deemed given when received by Bookball, at any time by electronic mail to Bookball ([play@bookball.co](mailto:play@bookball.co)), Subject: User Notices - Legal.
 
-### 22. General
+### 17. General
 
 You may not assign these Terms without Bookball's prior written approval. Bookball may assign these Terms without your consent to:
 
@@ -226,9 +198,9 @@ You may not assign these Terms without Bookball's prior written approval. Bookba
 
 Any purported assignment in violation of this section shall be void. No joint venture, partnership, employment, or agency relationship exists between you, Bookball or any Third Party Provider as a result of this Agreement or use of the Services. If any provision of these Terms is held to be invalid or unenforceable, such provision shall be struck and the remaining provisions shall be enforced to the fullest extent under law. Bookball's failure to enforce any right or provision in these Terms shall not constitute a waiver of such right or provision unless acknowledged and agreed to by Bookball in writing.
 
-## H. Copyright
+## F. Copyright
 
-### 23. Notification of copyright infringement
+### 18. Notification of copyright infringement
 
 Bookball, Ltda. ("_Bookball_") respects the intellectual property rights of others and expects its users to do the same.
 
@@ -236,7 +208,7 @@ It is Bookball's policy, in appropriate circumstances and at its discretion, to 
 
 Bookball will respond expeditiously to claims of copyright infringement committed using the Bookball App, as identified in the sample notice below.
 
-### 24. Notice of alleged infringement
+### 19. Notice of alleged infringement
 
 <ol type="a">
 <li>Identify the copyrighted work that you claim has been infringed, or - if multiple copyrighted works are covered by this Notice - you may provide a representative list of the copyrighted works that you claim have been infringed.</li>
@@ -251,9 +223,9 @@ Bookball will respond expeditiously to claims of copyright infringement committe
 
 Deliver this Notice, with all items completed, to Bookball:
 
-> Bookball, Ltda. <br>
-> Rua André Monteiro da Cruz, nº6, 1ºdto <br>
-> 1070-003 Lisboa <br>
+> Bookball - Sports Technology, Ltda. <br>
+> Travessa de Cima dos Quartéis, nº6, 1º <br>
+> 1250-073 Lisboa <br>
 > Email: play@bookball.co
 
 
