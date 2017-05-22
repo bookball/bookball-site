@@ -238,15 +238,13 @@ Deliver this Notice, with all items completed, to Bookball:
 
 ## A. General
 
-Bookball is committed to protecting its "_Users_" privacy. The following Privacy Policy outlines the information Bookball Ltda (hereafter "_Bookball_", "_we_", or "_us_") may process and how we may use that information to better serve Users while using our mobile application ("_App_") and our booking services (collectively the "_Service_"). Please review the following carefully so that you understand our privacy practices.
+Bookball is committed to protecting its “Users” privacy. The following Privacy Policy outlines the information Bookball - Sports Technology, Ltda (hereafter “Bookball”, "we", or "us") may process and how we may use that information to better serve Users while using our mobile application (“App”) and our booking services (collectively the "Service"). Please review the following carefully so that you understand our privacy practices.
 
-This Privacy Policy was last updated on February 16, 2016.
+This Privacy Policy was last updated on May 11, 2017.
 
 If you have questions about this Privacy Policy, please contact us at [play@bookball.co](mailto:play@bookball.co).
 
 ## B. Information Policy
-
-You own all the information you share on Bookball, and you can control how it is available to others at Bookball Settings ("_Settings_").
 
 When you publish content or information at Bookball, it means that you are allowing everyone, including people off of Bookball, to access and use that information, and to associate it with you (i.e., your name and profile picture).
 
@@ -258,11 +256,9 @@ When you use our App, we process technical data such as your IP-address, Device 
 
 ### 2. User information
 
-When you sign up at Bookball, we collect your name, your user name, email address, country, language, password, mobile phone number, IP-address and MAC-address.
+When you sign up at Bookball, we collect your name, your username, email address, country, language, password and mobile phone number.
 
-When you book a venue at Bookball, we provide your name and phone number to the third-party service provider, in order for them to contact you, in case there's a need to cancel a booking.
-
-We use a third-party service provider (_Braintree_, a _Paypal_ company) to collect payments. So, when you book a venue, _Braintree_ will also register your credit card number, expiry date and security code.
+When you book a venue at Bookball, we provide your name and phone number to the club, in order for them to contact you, in case there’s a need to cancel a booking.
 
 We will use your contact details to send you a welcoming email to verify your username and password, to communicate with you in response to your inquiries, and to send you service-related announcements, for instance, if our Service is temporarily suspended for maintenance.
 
@@ -276,51 +272,27 @@ When you use the App through your mobile device, we track your geo-location info
 
 When you sign up at Bookball, we collect the names, emails addresses and mobile phone numbers of the people registered at your mobile phone contacts. We use this information to improve your experience and help you find friends at Bookball. We never share this information.
 
-### 5. Account information
-
-When you sign up at Bookball, you allow Bookball to verify the list of accounts in the Account Service of your mobile phone.
-
-We only use this information to verify if your Bookball User is synced with your Account Service user (i.e., Google Account and Apple ID).
-
-### 6. Connect to Facebook
+### 5. Connect to Facebook
 
 When you sign up at Bookball using your Facebook account, you allow Facebook to provide Bookball your email, public profile and user friends. We use this information to improve your experience and help you find friends at Bookball.
 
-You can disconnect your Facebook account from your Bookball account at any time using Bookball Settings. But if you do, we will still maintain in our database the information you previously provided.
-
-### 7. Photo
+### 6. Photo
 
 If you choose to upload a photo to your Bookball account, your photo will be viewable for other Users. You may remove or replace your photo at any time by logging into your account.
 
-### 8. Push notifications
+### 7. Push notifications
 
 We will process your telephone number to send you push notifications regarding the Service.
 
-## C. Processing payments
+## C. Marketing
 
-When you book a venue, your credit card information is provided to our payment processing provider Braintree Payment Solutions, LLC. Bookball itself only collects the first six (the BIN numbers) and the last four digits of your credit card number and the expiration number. We use this information to prevent fraud.
+Bookball may use your contact details to send you general updates regarding Bookball news, special offers and promotions. We may also use your contact details to deliver advertising and other commercial or sponsored content that is valuable to you.
 
-## D. Marketing
-
-Bookball may use your contact details to send you general updates regarding Bookball news, special offers and promotions.
-
-We may also use your contact details to deliver advertising and other commercial or sponsored content that is valuable to you.
-
-## E. Generating management information and statistical data
+## D. Generating management information and statistical data
 
 Bookball uses your personal data in an anonymized and aggregated form to closely monitor which features of the Service are used most, to analyze usage patterns and to determine where we should offer or focus our Service. We may share this information with third parties for industry analysis and statistics.
 
-## F. Our disclosure of your information
-
-We may employ third-party companies and individuals to facilitate or provide the Service on our behalf, to process payment, provide customer support, provide geo-location information, or to assist us in analyzing how our Service is used. These third-parties have access to your personal information only to perform these tasks on our behalf and are contractually bound not to disclose or use it for any other purpose.
-
-Bookball will disclose your personal data to the extent that this is legally required, or necessary for the establishment, exercise or defense of legal claims and legal process; or in the event of an emergency pertaining to your health and/or safety.
-
-## G. Your rights
-
-As a user, you have the right to information regarding your personal account, including information that you've provided to us and information regarding each booking made at the App. You may at any time request correction or erasure of your personal data, and object to any processing of your personal data by emailing us at  [play@bookball.co](mailto:play@bookball.co). We will respond to your access and/or correction request within four weeks. You may also amend your personal details and withdraw any given consent using your Bookball account.
-
-## H. Security
+## E. Security
 
 Bookball has taken appropriate technical and organizational security measures against loss or unlawful processing of your personal data. To this purpose, your personal data are securely stored within our database, and we use standard, industry-wide, commercially reasonable security practices such as firewalls and SSL (Secure Socket Layers) as well as physical safeguards of the locations where data is stored.
 
@@ -337,11 +309,11 @@ When reporting a vulnerability, please include the following:
   <li>Steps to reproduce the issue</li>
 </ol>
 
-## I. Changes in this privacy policy
+## F. Changes in this privacy policy
 
 We may update this privacy statement to reflect changes to our information practices. If we make any material changes we will notify you by email. We encourage you to periodically review this page for the latest information on our privacy practices.
 
-## J. Contact details
+## G. Contact details
 
 - Mail: [play@bookball.co](mailto:play@bookball.co)
 - Website: [bookball.co](http://bookball.co/)
@@ -360,25 +332,19 @@ Bookball allows both, Users and Third Party Service Providers, to cancel booking
 
 ## B. User cancellation policy
 
-As a User, you can cancel your booking at Bookball at any time prior to the time of the game. If for any reason, you don't cancel your booking and you don't attend the reservation you have maid, the booking Fee you have paid, will still be charged.
+As a User, you can cancel a booking at Bookball at any time prior to the time of the game. If for any reason, you don’t cancel a booking and you don’t attend the booking you have maid, you can still be charged.
 
-If you cancel a booking until 10 hours prior to the time of the game, the Booking Fee you've paid is automatically refunded at your credit card.
+If you cancel a booking until 10 hours prior to the time of the game, you will not be charged for cancelling the booking.
 
-If you cancel a booking within the 10 hours prior to the game, you will loose the Booking Fee you paid, unless the club where you booked the venue accepts to refund you in total.
+If you cancel a booking within the 10 hours prior to the game, the Club where you have made the booking is allowed to charge you partially or the entire booking. Between 10 hours prior to the game and the time of the game, if you wish to cancel a booking and avoid being charged, you, at your own account and risk, have to directly contact the club by telephone and agree with them on the conditions of the cancellation.
 
-Between 10 hours prior to the game and the time of the game, if you wish to cancel a booking and still be refunded, you, at your own account and risk, have to directly contact the club by telephone and ask for that refund. The club is not obligated to refund you. They can do it, but it's up to them to decide if they are willing to refund you or not.
+## C. Club's cancellation policy
 
-## C. Third Party Service Providers cancellation policy
-
-Third party service providers ("_Service Providers"_) can cancel a booking at any time prior to the time of the game. If they cancel a booking, you will be automatically refunded in total.
-
-When a Service Provider cancels a booking, you receive a notification on your Bookball Account, and you can book another venue from another Service Provider available at Bookball.
+Every Club at Bookball can cancel a booking at any time prior to the time of the game. When a Club cancels a booking, you receive a notification on your Bookball Account, and you can instantly book another venue from another Club available at Bookball.
 
 ## D. Cancellation policy disclaimer
 
-BOOKBALL ONLY GRANTS THE BOOKING FEE REFUND IF THE CANCELLATION OCCURS UNTIL 10 HOURS PRIOR TO THE TIME OF THE GAME.
+BOOKBALL HAS NO RESPONSIBILITY OR LIABILITY FOR DISPUTES OF ANY KIND BETWEEN USERS AND THIRD PARTY SERVICE PROVIDERS REGARDING ANY KIND OF CANCELLATION.
 
-BETWEEN 10 HOURS PRIOR TO THE TIME OF THE GAME AND THE TIME OF THE GAME, ONLY THE CLUB HAS THE AUTHORITY TO ACCEPT A CANCELLATION WITH FULL REFUND.
-
-IT'S YOUR OWN RESPONSIBILITY TO CONTACT THE CLUB IF YOU WISH TO CANCEL A BOOKING 10 HOURS PRIOR TO THE TIME OF THE GAME, AND STILL BE REFUNDED. BOOKBALL HAS NO LIABILITY OR RESPONSIBILITY ON SUCH MANNER TO ENSURE YOUR FULL REFUND.
+IF YOU DO NOT COMPLY WITH THESE RULES, BOOKBALL HAS THE RIGHT TO CANCEL YOUR ACCOUNT AT ANY TIME WITHOUT PREVIOUS NOTICE AND CHARGE YOU FOR ANY INCONVENIENCE.
 
