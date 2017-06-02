@@ -10,9 +10,9 @@ module.exports = function(grunt) {
 				},
 				files: [{
 					expand: true,
-					cwd: 'src/sass',
+					cwd: 'sass',
 					src: ['*.scss'],
-					dest: 'src/sass/build',
+					dest: 'sass/build',
 					ext: '.css'
 				}]
 			}
@@ -25,24 +25,24 @@ module.exports = function(grunt) {
 			multiple_files: {
 				expand: true,
 				flatten: true,
-				src: 'src/sass/build/*.css',
-				dest: 'src/sass/build/prefixed/'
+				src: 'sass/build/*.css',
+				dest: 'sass/build/prefixed/'
 			}
 		},
 
 		concat: {
 			dist: {
 				src: [
-					'src/sass/build/prefixed/*.css'
+					'sass/build/prefixed/*.css'
 				],
-				dest: 'src/css/style.css'
+				dest: 'css/style.css'
 			}
 		},
 		
 		cssmin: {
 			combine: {
 				files: {
-					'src/css/style.min.css': ['src/css/style.css']
+					'css/style.min.css': ['css/style.css']
 				}
 			}
 		},
@@ -51,9 +51,9 @@ module.exports = function(grunt) {
 			main: {
 				files: [{
 					expand: true,
-					cwd: 'src/css',
+					cwd: 'css',
 					src: ['*.css'],
-					dest: 'site/css'
+					dest: '_site/css'
 				}]
 			}
 		},
@@ -73,7 +73,7 @@ module.exports = function(grunt) {
 			},
 			mixins: {
 				options: {
-					destPrefix: 'src/sass'
+					destPrefix: 'sass'
 				},
 				files: {
 					'lib/_normalize.scss': 'normalize-css/normalize.css',
@@ -92,9 +92,9 @@ module.exports = function(grunt) {
       },
       dist: {
         expand: true,
-        cwd: 'src/assets/svg',
+        cwd: 'assets/svg',
         src: ['*.svg'],
-        dest: 'src/assets/svg_optimized'
+        dest: 'assets/svg_optimized'
       }
     },
 		
@@ -102,9 +102,9 @@ module.exports = function(grunt) {
         myIcons: {
             files: [{
                 expand: true,
-                cwd: 'src/assets/svg_optimized',
+                cwd: 'assets/svg_optimized',
                 src: ['*.svg', '*.png'],
-                dest: "src/assets/icons"
+                dest: "assets/icons"
             }],
             options: {
               enhanceSVG: true
@@ -117,23 +117,23 @@ module.exports = function(grunt) {
 				livereload: true
 			},
 			css: {
-				files: ['src/sass/**/*.scss',
-				        'src/sass/**/*.css',
-				        '!src/sass/build'],
+				files: ['sass/**/*.scss',
+				        'sass/**/*.css',
+				        '!sass/build'],
 				tasks: ['css'],
 				options: {
 					spawn: false
 				}
 			},
 			html: {
-				files: ['src/**/*.html',
-								'src/**/*.md',
-								'src/**/*.markdown',
-								'src/**/*.yml',
-								'src/*.html',
-								'src/*.md',
-								'src/*.markdown',
-								'src/*.yml',
+				files: ['**/*.html',
+								'**/*.md',
+								'**/*.markdown',
+								'**/*.yml',
+								'*.html',
+								'*.md',
+								'*.markdown',
+								'*.yml',
 								'_config.yml' ],
 				tasks: ['jekyll'],
 				options: {
