@@ -226,6 +226,7 @@ Deliver this Notice, with all items completed, to Bookball:
 > Bookball - Sports Technology, Ltda. <br>
 > Travessa de Cima dos Quartéis, nº6, 1º <br>
 > 1250-073 Lisboa <br>
+> Portugal <br>
 > Email: play@bookball.co
 
 
@@ -240,23 +241,23 @@ Deliver this Notice, with all items completed, to Bookball:
 
 Bookball is committed to protecting its “Users” privacy. The following Privacy Policy outlines the information Bookball - Sports Technology, Ltda (hereafter “Bookball”, "we", or "us") may process and how we may use that information to better serve Users while using our mobile application (“App”) and our booking services (collectively the "Service"). Please review the following carefully so that you understand our privacy practices.
 
-This Privacy Policy was last updated on May 11, 2017.
+This Privacy Policy was last updated on July 8, 2017.
 
 If you have questions about this Privacy Policy, please contact us at [play@bookball.co](mailto:play@bookball.co).
 
 ## B. Information Policy
 
-When you publish content or information at Bookball, it means that you are allowing everyone, including people off of Bookball, to access and use that information, and to associate it with you (i.e., your name and profile picture).
+When you publish content or information at Bookball, it means that you are allowing everyone, including people off of Bookball, to access and use that information, and to associate it with you (i.e. your name and profile picture).
 
 We always appreciate your feedback or other suggestions about Bookball, but you understand that we may use your feedback or suggestions without any obligation to compensate you for them (just as you have no obligation to offer them).
 
 ### 1. Data policy
 
-When you use our App, we process technical data such as your IP-address, Device ID or MAC-address, and information about the manufacturer, model, and operating system of your mobile device. We use this data to enable us to deliver the functionalities of the App, to resolve technical difficulties, to provide you with the correct and most up to date version of the App and to improve the function of the App.
+When you use our App, we process technical data such as your IP-address, Device ID or MAC-address, and information about the manufacturer, model, and operating system of your mobile device, and we store that information at our server. We use this data to enable us to deliver the functionalities of the App, to resolve technical difficulties, to provide you with the correct and most up to date version of the App and to improve the function of the App. 
 
 ### 2. User information
 
-When you sign up at Bookball, we collect your name, your username, email address, country, language, password and mobile phone number.
+When you sign up at Bookball, we collect your name, your username, email address, country, language, password and mobile phone number. All that information is securitly stored at our server.
 
 When you book a venue at Bookball, we provide your name and phone number to the club, in order for them to contact you, in case there’s a need to cancel a booking.
 
@@ -266,11 +267,11 @@ We will use your registration information to create and manage your Bookball acc
 
 ### 3. Location information
 
-When you use the App through your mobile device, we track your geo-location information to allow you to view the available Sport Facilities ("_Facilities_") that are closer to your location. We also use your geo-location information to connect with maps and help you discover your way to the Facilities. We never share this information.
+When you use the App through your mobile device, we track your geo-location information to allow you to view the available Sport Facilities ("_Facilities_") that are closer to your location. We also use your geo-location information to connect with maps and help you discover your way to the Facilities. We never share, nor use this information for anything else rather than to improve your experience.
 
 ### 4. Contacts data
 
-When you sign up at Bookball, we collect the names, emails addresses and mobile phone numbers of the people registered at your mobile phone contacts. We use this information to improve your experience and help you find friends at Bookball. We never share this information.
+When you sign up at Bookball, we collect the names, emails addresses and mobile phone numbers of the people registered at your mobile phone contacts. We use this information to improve your experience and help you find friends at Bookball. We never share, nor use that information for our self advantage.
 
 ### 5. Connect to Facebook
 
